@@ -1,0 +1,19 @@
+.list {
+  padding: 7px;
+  margin-top: 5px;
+  margin: 0 41px 0 41px;
+}
+.list::before {
+  content: '=>';
+  width: 30px;
+  height: 10px;
+  float: left;
+  margin: 0 6px 0 0;
+  color: rgb(8, 0, 255);
+}
+.button {
+  border: 2px solid #3884ba;
+  padding: 0 4px 0 4px;
+  cursor: pointer;
+  margin-left: 50px;
+}
